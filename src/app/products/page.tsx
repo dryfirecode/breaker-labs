@@ -13,6 +13,7 @@ const products = [
       "Scheduling and coordination for short-term rental cleaners. Never miss a turnover again.",
     status: "Building" as const,
     tags: ["Next.js", "Supabase", "Scheduling", "PropTech"],
+    href: "https://www.turnoverflow.app",
   },
   {
     name: "Take The Points",
@@ -20,6 +21,7 @@ const products = [
       "Sports game outcome predictions powered by data. Smarter picks, backed by the numbers.",
     status: "Building" as const,
     tags: ["Next.js", "Supabase", "AI/ML", "Sports"],
+    href: "https://www.takethepoints.ai",
   },
 ];
 

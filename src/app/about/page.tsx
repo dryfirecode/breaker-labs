@@ -7,23 +7,42 @@ export const metadata: Metadata = {
 
 const experience = [
   {
-    company: "Arctic Wolf",
-    role: "Principal Security Engineer",
-    period: "Current",
+    company: "Breaker Labs LLC",
+    role: "Owner & CEO",
+    period: "2026 – Present",
     highlights: [
-      "Leading security engineering initiatives across detection and response",
-      "Building AI-driven security tooling and automation",
-      "Mentoring engineering teams on secure development practices",
+      "Building a focused portfolio of micro-SaaS products",
+      "Lean validated ideas, AI-assisted development, fast iteration",
+      "Shipping real products that solve real operational problems",
     ],
   },
   {
-    company: "Previous Roles",
-    role: "Security Engineering & Leadership",
-    period: "10+ years",
+    company: "Arctic Wolf",
+    role: "Principal Sales Engineer",
+    period: "2018 – 2026",
     highlights: [
-      "Built and led security operations teams",
-      "Designed threat detection and incident response programs",
-      "Developed security tooling and automation at scale",
+      "Technical advisor across the full sales cycle for organizations of all sizes",
+      "Translating complex security concepts for technical and executive audiences",
+      "Speaking at cybersecurity conferences and creating educational content",
+    ],
+  },
+  {
+    company: "Sandvine",
+    role: "Senior Sales Engineer",
+    period: "2012 – 2018",
+    highlights: [
+      "Designed and presented technical solutions for network visibility and policy control",
+      "Supported Tier 1 accounts across the Eastern US",
+      "Partnered with sales teams to navigate complex enterprise deals",
+    ],
+  },
+  {
+    company: "DigitalBridge & Coretel",
+    role: "Network Engineer",
+    period: "2007 – 2012",
+    highlights: [
+      "Managed network infrastructure and operations",
+      "Built the hands-on engineering foundation for a career in cybersecurity",
     ],
   },
 ];
@@ -33,21 +52,22 @@ const skills = [
     category: "Cybersecurity",
     items: [
       "Threat Detection & Response",
-      "Security Engineering",
-      "Incident Response",
-      "Vulnerability Management",
+      "Security Architecture",
+      "Managed Detection & Response",
+      "Network Security",
       "Cloud Security",
       "SIEM/SOAR",
     ],
   },
   {
-    category: "AI & ML",
+    category: "AI & Speaking",
     items: [
       "AI Security",
       "LLM Security",
       "Prompt Injection Defense",
-      "ML Ops",
-      "AI-powered Tooling",
+      "Public Speaking",
+      "Conference Presentations",
+      "Content Creation",
     ],
   },
   {
@@ -97,11 +117,15 @@ export default function AboutPage() {
               results.
             </p>
             <p>
-              By day, I&apos;m a Principal Security Engineer at Arctic Wolf,
-              working on detection and response at scale. Outside of that,
-              I&apos;m building SaaS products, writing Security Signal (my
-              cybersecurity newsletter), and researching AI security threats
-              that most people aren&apos;t paying attention to yet.
+              I spent nearly 8 years as a Principal Sales Engineer at Arctic
+              Wolf, helping organizations understand and defend against
+              real-world threats. Before that, over a decade as a network
+              engineer &mdash; so I know what it looks like when things break
+              and what it takes to keep them running. Now I&apos;m building
+              SaaS products, writing Security Signal (my cybersecurity
+              newsletter), speaking at conferences like FutureCon, and
+              making AI security concepts click for people who aren&apos;t
+              neck-deep in threat intel every day.
             </p>
             <p>
               Breaker Labs is the umbrella for all of it &mdash; a workshop, not
@@ -176,7 +200,7 @@ export default function AboutPage() {
       <section className="bg-midnight px-6 py-16">
         <div className="mx-auto flex max-w-3xl flex-col items-center gap-4 text-center sm:flex-row sm:justify-center">
           <Button href="/contact">Get in Touch</Button>
-          <Button href="https://linkedin.com/in/yourprofile" variant="ghost">
+          <Button href="https://linkedin.com/in/johnwdavies" variant="ghost">
             Connect on LinkedIn
           </Button>
         </div>

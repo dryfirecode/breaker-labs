@@ -22,8 +22,13 @@ export default function PostCard({
   category,
   href,
 }: PostCardProps) {
+  const isExternal = href.startsWith("http");
+
   return (
-    <Link href={href}>
+    <Link
+      href={href}
+      {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+    >
       <div className="rounded-2xl border border-graphite bg-midnight p-6 transition-all duration-200 hover:scale-[1.02] hover:border-signal/50 hover:shadow-lg">
         <div className="mb-3 flex items-center gap-3">
           <span

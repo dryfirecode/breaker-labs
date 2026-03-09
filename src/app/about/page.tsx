@@ -99,10 +99,9 @@ export default function AboutPage() {
             <p>
               By day, I&apos;m a Principal Security Engineer at Arctic Wolf,
               working on detection and response at scale. Outside of that,
-              I&apos;m building SaaS products through my SaaS Factory, writing
-              Security Signal (my cybersecurity newsletter), and researching AI
-              security threats that most people aren&apos;t paying attention to
-              yet.
+              I&apos;m writing Security Signal (my cybersecurity newsletter)
+              and researching AI security threats that most people
+              aren&apos;t paying attention to yet.
             </p>
             <p>
               Breaker Labs is the umbrella for all of it &mdash; a workshop, not

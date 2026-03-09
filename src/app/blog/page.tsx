@@ -18,7 +18,7 @@ const posts = [
     title: "Building in Public: Month 1",
     date: "March 2026",
     excerpt:
-      "First month of building the SaaS Factory. What shipped, what broke, and what I learned about building products solo.",
+      "First month of building in public. What shipped, what broke, and what I learned about building products solo.",
     category: "Build Log" as const,
     href: "#",
   },

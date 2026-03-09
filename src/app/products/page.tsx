@@ -10,23 +10,16 @@ const products = [
   {
     name: "TurnOverflow",
     description:
-      "Know when your team is about to walk out the door. Employee retention signals before it's too late.",
+      "Scheduling and coordination for short-term rental cleaners. Never miss a turnover again.",
     status: "Building" as const,
-    tags: ["Next.js", "Supabase", "AI/ML", "HR Tech"],
+    tags: ["Next.js", "Supabase", "Scheduling", "PropTech"],
   },
   {
-    name: "Sapience",
+    name: "Take The Points",
     description:
-      "AI-powered knowledge management that actually works. Stop losing institutional knowledge when people leave.",
+      "Sports game outcome predictions powered by data. Smarter picks, backed by the numbers.",
     status: "Building" as const,
-    tags: ["Next.js", "LLMs", "RAG", "Supabase"],
-  },
-  {
-    name: "Health Dashboard",
-    description:
-      "Your personal health data warehouse. All your health metrics in one place, on your terms.",
-    status: "Building" as const,
-    tags: ["Next.js", "Supabase", "Data Viz", "Health Tech"],
+    tags: ["Next.js", "Supabase", "AI/ML", "Sports"],
   },
 ];
 
@@ -40,8 +33,8 @@ export default function ProductsPage() {
             What&apos;s Shipping
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-steel">
-            Real products being built and shipped from the SaaS Factory. No
-            vaporware. If it&apos;s here, it&apos;s getting worked on.
+            Real products being built and shipped. No vaporware. If
+            it&apos;s here, it&apos;s getting worked on.
           </p>
         </div>
       </section>
@@ -49,7 +42,7 @@ export default function ProductsPage() {
       {/* Product Grid */}
       <section className="bg-obsidian px-6 py-24">
         <div className="mx-auto max-w-4xl">
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 md:grid-cols-2">
             {products.map((product) => (
               <ProductCard key={product.name} {...product} />
             ))}

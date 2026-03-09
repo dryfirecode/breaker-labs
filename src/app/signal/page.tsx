@@ -70,7 +70,7 @@ export default function SignalPage() {
               },
               {
                 title: "Build Updates",
-                desc: "What I'm building, breaking, and shipping in the SaaS Factory and across Breaker Labs.",
+                desc: "What I'm building, breaking, and shipping across Breaker Labs products.",
               },
             ].map((item) => (
               <div

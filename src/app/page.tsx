@@ -61,7 +61,7 @@ export default function Home() {
               </div>
             </Link>
 
-            {/* SaaS Factory */}
+            {/* Products */}
             <Link href="/products">
               <div className="group rounded-2xl border border-graphite bg-midnight p-8 transition-all duration-200 hover:scale-[1.02] hover:border-forge/50">
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-forge/15">
@@ -70,11 +70,11 @@ export default function Home() {
                   </svg>
                 </div>
                 <h3 className="mb-2 text-xl font-semibold text-white">
-                  SaaS Factory
+                  Products
                 </h3>
                 <p className="text-steel">
-                  Real products getting built and shipped. Employee retention
-                  tools, AI knowledge systems, and more in the pipeline.
+                  Real products getting built and shipped. Rental scheduling,
+                  sports predictions, and more in the pipeline.
                 </p>
                 <span className="mt-4 inline-block text-sm font-medium text-forge group-hover:underline">
                   View Products &rarr;
